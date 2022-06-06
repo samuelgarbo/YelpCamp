@@ -16,7 +16,6 @@ const commentRoutes = require("./routes/comments"),
 	  campgroundRoutes = require("./routes/campgrounds"),
 	  authRoutes = require("./routes/index");
 
-//mongodb+srv://test1:test1@cluster0-14rqk.mongodb.net/test?retryWrites=true&w=majority
 console.log(process.env.DATABASEURL);
 mongoose.connect(process.env.DATABASEURL,{
 	useNewUrlParser: true,
